@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeff ┃ Art Portfolio </title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <a href="#home" class="logo">JD</a>
+      <ul id="navigation">
+        <li><a href="#home" class="btn active">Home</a></li>
+        <li><a href="#about" class="btn">About Me</a></li>
+        <li><a href="#gallery" class="btn">Gallery</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <section id="home" style="display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;">
+      <img src="jeff.png" alt="jeff" style="width: 250px; height: auto; margin-bottom: 10px;">
+      <h1>Jefferson Delloro</h1>
+      <p style="font-size: 15px; font-weight: normal;">Multimedia Artist</p>
+    </section>
+  
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+          <div class="about-container">
+            <p>Jeff's artistic curiosity was piqued at a young age when he watched his grandfather paint. 
+                He was inspired by his grandfather's courage and artistry, and he began to explore different forms of art, including photography, video editing, graphic design, and 3d modelling.</p>
+            <br>
+            <p>He found that art was a way to communicate his emotions, thoughts, and views on life.
+            He believed that art had a communicative capacity that could transcend words. For him, art was not just a representation of reality, but also a way to go beyond it.</p>
+            <br>
+            <p>Furthermore, he has been accepting art commissions to support himself financially. He creates custom artworks for clients who appreciate his unique style.
+            By taking on these commissions, he not only earns money but also gains valuable experience and connects with people who admire his work. 
+            This allows him to sustain his artistic practice while making a positive impact on others through his art.</p>
+            <br>
+            <p>Currently, he is pursuing a university degree in digital animation. He believes that this will help him to become a better artist and to inspire others with his work.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h1>Gallery</h1>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--prev">&#10094;</button>
+          <div class="carousel__images">
+          <img src="1.jpg" alt="Image 1">
+          <img src="2.jpg" alt="Image 2">
+          <img src="3.png" alt="Image 3">
+          <img src="4.jpg" alt="Image 4">
+          <img src="5.jpg" alt="Image 5">
+          <img src="6.jpg" alt="Image 6">
+          <img src="7.jpg" alt="Image 7">
+          <img src="8.jpg" alt="Image 8">
+          <img src="9.jpg" alt="Image 9">
+          <img src="10.jpg" alt="Image 10">
+          <img src="11.jpg" alt="Image 11">
+          <img src="12.jpg" alt="Image 12">
+          <img src="13.jpg" alt="Image 13">
+          <img src="14.png" alt="Image 14">
+          <img src="15.jpg" alt="Image 15">
+          <img src="16.jpg" alt="Image 16">
+          <img src="17.png" alt="Image 17">
+        </div>
+        <button class="carousel__btn carousel__btn--next">&#10095;</button>
+      </div>
+
+      <div class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+          <img class="modal-image" src="" alt="Full-size Image">
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="tab-content active" id="contact-form">
+          <div class="contact-content">
+            <h2>Send me a message</h2>
+            <form>
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="tab-content" id="contact-info">
+          <div class="contact-content">
+            <h2>Contact Information</h2>
+            <p>Email: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Address: 123 Street, City, Country</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
